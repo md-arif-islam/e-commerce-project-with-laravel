@@ -1,9 +1,12 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
+use App\Http\Livewire\Admin\AdminDashboardComponent;
 use App\Http\Livewire\CartComponent;
 use App\Http\Livewire\CheckoutComponent;
 use App\Http\Livewire\HomeComponent;
 use App\Http\Livewire\ShopComponent;
+use App\Http\Livewire\User\UserDashboardComponent;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +24,17 @@ Route::get( '/', HomeComponent::class )->name( "home.index" );
 Route::get( '/shop', ShopComponent::class )->name( "shop" );
 Route::get( '/cart', CartComponent::class )->name( "shop.cart" );
 Route::get( '/checkout', CheckoutComponent::class )->name( "shop.checkout" );
+
+Route::middleware( 'auth' )->group( function () {
+    Route::get( '/profile', [ProfileController::class, 'edit'] )->name( 'profile.edit' );
+    Route::patch( '/profile', [ProfileController::class, 'update'] )->name( 'profile.update' );
+    Route::delete( '/profile', [ProfileController::class, 'destroy'] )->name( 'profile.destroy' );
+
+    Route::get( "/user/dashboard", UserDashboardComponent::class )->name( 'user.dashboard' );
+} );
+
+Route::middleware( ['auth', 'authadmin'] )->group( function () {
+    Route::get( "/admin/dashboard", AdminDashboardComponent::class )->name( 'admin.dashboard' );
+} );
+
+require __DIR__ . '/auth.php';
