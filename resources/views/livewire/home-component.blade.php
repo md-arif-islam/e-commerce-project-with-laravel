@@ -17,7 +17,8 @@
                             </div>
                             <div class="col-lg-7 col-md-6">
                                 <div class="single-slider-img single-slider-img-1">
-                                    <img class="animated slider-1-1" src="assets/imgs/slider/slider-1.png"
+                                    <img class="animated slider-1-1"
+                                        src={{ asset('assets/imgs/slider/slider-1.png') }}
                                         alt="">
                                 </div>
                             </div>
@@ -39,7 +40,8 @@
                             </div>
                             <div class="col-lg-7 col-md-6">
                                 <div class="single-slider-img single-slider-img-1">
-                                    <img class="animated slider-1-2" src="assets/imgs/slider/slider-2.png"
+                                    <img class="animated slider-1-2"
+                                        src={{ asset('assets/imgs/slider/slider-2.png') }}
                                         alt="">
                                 </div>
                             </div>
@@ -54,37 +56,37 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                         <div class="banner-features wow fadeIn animated hover-up">
-                            <img src="assets/imgs/theme/icons/feature-1.png" alt="">
+                            <img src={{ asset('assets/imgs/theme/icons/feature-1.png') }} alt="">
                             <h4 class="bg-1">Free Shipping</h4>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                         <div class="banner-features wow fadeIn animated hover-up">
-                            <img src="assets/imgs/theme/icons/feature-2.png" alt="">
+                            <img src={{ asset('assets/imgs/theme/icons/feature-2.png') }} alt="">
                             <h4 class="bg-3">Online Order</h4>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                         <div class="banner-features wow fadeIn animated hover-up">
-                            <img src="assets/imgs/theme/icons/feature-3.png" alt="">
+                            <img src={{ asset('assets/imgs/theme/icons/feature-3.png') }} alt="">
                             <h4 class="bg-2">Save Money</h4>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                         <div class="banner-features wow fadeIn animated hover-up">
-                            <img src="assets/imgs/theme/icons/feature-4.png" alt="">
+                            <img src={{ asset('assets/imgs/theme/icons/feature-4.png') }} alt="">
                             <h4 class="bg-4">Promotions</h4>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                         <div class="banner-features wow fadeIn animated hover-up">
-                            <img src="assets/imgs/theme/icons/feature-5.png" alt="">
+                            <img src={{ asset('assets/imgs/theme/icons/feature-5.png') }} alt="">
                             <h4 class="bg-5">Happy Sell</h4>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                         <div class="banner-features wow fadeIn animated hover-up">
-                            <img src="assets/imgs/theme/icons/feature-6.png" alt="">
+                            <img src={{ asset('assets/imgs/theme/icons/feature-6.png') }} alt="">
                             <h4 class="bg-6">24/7 Support</h4>
                         </div>
                     </div>
@@ -107,9 +109,9 @@
                                 aria-selected="false">Popular</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="nav-tab-three" data-bs-toggle="tab"
-                                data-bs-target="#tab-three" type="button" role="tab" aria-controls="tab-three"
-                                aria-selected="false">New added</button>
+                            <button class="nav-link" id="nav-tab-three" data-bs-toggle="tab" data-bs-target="#tab-three"
+                                type="button" role="tab" aria-controls="tab-three" aria-selected="false">New
+                                added</button>
                         </li>
                     </ul>
                     <a href="#" class="view-more d-none d-md-flex">View More<i
@@ -124,9 +126,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-1-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-1-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-1-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-1-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -169,9 +173,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-2-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-2-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-2-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-2-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -214,9 +220,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-3-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-3-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-3-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-3-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -259,9 +267,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-4-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-4-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-4-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-4-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -304,9 +314,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-5-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-5-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-5-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-5-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -349,9 +361,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-6-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-6-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-6-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -394,9 +408,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-7-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-7-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-7-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-7-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -438,9 +454,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-8-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-8-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-8-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-8-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -486,9 +504,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-9-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-9-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-9-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -531,9 +551,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-10-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-10-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-10-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-10-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -576,9 +598,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-11-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-11-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-11-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-11-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -621,9 +645,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-12-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-12-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-12-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-12-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -666,9 +692,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-13-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-13-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-13-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-13-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -711,9 +739,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-14-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-14-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-14-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-14-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -756,9 +786,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-15-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-15-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-15-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-15-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -800,9 +832,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-1-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-1-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-1-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-1-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -848,9 +882,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="default-img" src="assets/imgs/shop/product-2-1.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-2-1.jpg') }}
                                                     alt="">
-                                                <img class="hover-img" src="assets/imgs/shop/product-2-2.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-2-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -893,9 +929,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="hover-img" src="assets/imgs/shop/product-3-1.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-3-1.jpg') }}
                                                     alt="">
-                                                <img class="default-img" src="assets/imgs/shop/product-3-2.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-3-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -938,9 +976,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="hover-img" src="assets/imgs/shop/product-4-1.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-4-1.jpg') }}
                                                     alt="">
-                                                <img class="default-img" src="assets/imgs/shop/product-4-2.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-4-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -983,9 +1023,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="hover-img" src="assets/imgs/shop/product-5-1.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-5-1.jpg') }}
                                                     alt="">
-                                                <img class="default-img" src="assets/imgs/shop/product-5-2.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-5-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -1028,9 +1070,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="hover-img" src="assets/imgs/shop/product-6-1.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-6-1.jpg') }}
                                                     alt="">
-                                                <img class="default-img" src="assets/imgs/shop/product-6-2.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-6-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -1073,9 +1117,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="hover-img" src="assets/imgs/shop/product-7-1.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-7-1.jpg') }}
                                                     alt="">
-                                                <img class="default-img" src="assets/imgs/shop/product-7-2.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-7-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -1118,9 +1164,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="hover-img" src="assets/imgs/shop/product-8-1.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-8-1.jpg') }}
                                                     alt="">
-                                                <img class="default-img" src="assets/imgs/shop/product-8-2.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-8-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -1130,8 +1178,8 @@
                                                     class="fi-rs-eye"></i></a>
                                             <a aria-label="Add To Wishlist" class="action-btn hover-up"
                                                 href="wishlist.php"><i class="fi-rs-heart"></i></a>
-                                            <a aria-label="Compare" class="action-btn hover-up"
-                                                href="compare.php"><i class="fi-rs-shuffle"></i></a>
+                                            <a aria-label="Compare" class="action-btn hover-up" href="compare.php"><i
+                                                    class="fi-rs-shuffle"></i></a>
                                         </div>
                                         <div class="product-badges product-badges-position product-badges-mrg">
                                             <span class="new">New</span>
@@ -1162,9 +1210,11 @@
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
                                             <a href="product-details.html">
-                                                <img class="hover-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                <img class="hover-img"
+                                                    src={{ asset('assets/imgs/shop/product-9-1.jpg') }}
                                                     alt="">
-                                                <img class="default-img" src="assets/imgs/shop/product-9-2.jpg"
+                                                <img class="default-img"
+                                                    src={{ asset('assets/imgs/shop/product-9-2.jpg') }}
                                                     alt="">
                                             </a>
                                         </div>
@@ -1210,7 +1260,7 @@
         <section class="banner-2 section-padding pb-0">
             <div class="container">
                 <div class="banner-img banner-big wow fadeIn animated f-none">
-                    <img src="assets/imgs/banner/banner-4.png" alt="">
+                    <img src={{ asset('assets/imgs/banner/banner-4.png') }} alt="">
                     <div class="banner-text d-md-block d-none">
                         <h4 class="mb-15 mt-40 text-brand">Repair Services</h4>
                         <h1 class="fw-600 mb-20">We're an Apple <br>Authorised Service Provider</h1>
@@ -1228,56 +1278,64 @@
                     <div class="carausel-6-columns" id="carausel-6-columns">
                         <div class="card-1">
                             <figure class=" img-hover-scale overflow-hidden">
-                                <a href="shop.html"><img src="assets/imgs/shop/category-thumb-1.jpg"
+                                <a href="shop.html"><img
+                                        src={{ asset('assets/imgs/shop/category-thumb-1.jpg') }}
                                         alt=""></a>
                             </figure>
                             <h5><a href="shop.html">T-Shirt</a></h5>
                         </div>
                         <div class="card-1">
                             <figure class=" img-hover-scale overflow-hidden">
-                                <a href="shop.html"> <img src="assets/imgs/shop/category-thumb-2.jpg"
+                                <a href="shop.html"> <img
+                                        src={{ asset('assets/imgs/shop/category-thumb-2.jpg') }}
                                         alt=""></a>
                             </figure>
                             <h5><a href="shop.html">Bags</a></h5>
                         </div>
                         <div class="card-1">
                             <figure class=" img-hover-scale overflow-hidden">
-                                <a href="shop.html"><img src="assets/imgs/shop/category-thumb-3.jpg"
+                                <a href="shop.html"><img
+                                        src={{ asset('assets/imgs/shop/category-thumb-3.jpg') }}
                                         alt=""></a>
                             </figure>
                             <h5><a href="shop.html">Sandan</a></h5>
                         </div>
                         <div class="card-1">
                             <figure class=" img-hover-scale overflow-hidden">
-                                <a href="shop.html"><img src="assets/imgs/shop/category-thumb-4.jpg"
+                                <a href="shop.html"><img
+                                        src={{ asset('assets/imgs/shop/category-thumb-4.jpg') }}
                                         alt=""></a>
                             </figure>
                             <h5><a href="shop.html">Scarf Cap</a></h5>
                         </div>
                         <div class="card-1">
                             <figure class=" img-hover-scale overflow-hidden">
-                                <a href="shop.html"><img src="assets/imgs/shop/category-thumb-5.jpg"
+                                <a href="shop.html"><img
+                                        src={{ asset('assets/imgs/shop/category-thumb-5.jpg') }}
                                         alt=""></a>
                             </figure>
                             <h5><a href="shop.html">Shoes</a></h5>
                         </div>
                         <div class="card-1">
                             <figure class=" img-hover-scale overflow-hidden">
-                                <a href="shop.html"><img src="assets/imgs/shop/category-thumb-6.jpg"
+                                <a href="shop.html"><img
+                                        src={{ asset('assets/imgs/shop/category-thumb-6.jpg') }}
                                         alt=""></a>
                             </figure>
                             <h5><a href="shop.html">Pillowcase</a></h5>
                         </div>
                         <div class="card-1">
                             <figure class=" img-hover-scale overflow-hidden">
-                                <a href="shop.html"><img src="assets/imgs/shop/category-thumb-7.jpg"
+                                <a href="shop.html"><img
+                                        src={{ asset('assets/imgs/shop/category-thumb-7.jpg') }}
                                         alt=""></a>
                             </figure>
                             <h5><a href="shop.html">Jumpsuits</a></h5>
                         </div>
                         <div class="card-1">
                             <figure class=" img-hover-scale overflow-hidden">
-                                <a href="shop.html"><img src="assets/imgs/shop/category-thumb-8.jpg"
+                                <a href="shop.html"><img
+                                        src={{ asset('assets/imgs/shop/category-thumb-8.jpg') }}
                                         alt=""></a>
                             </figure>
                             <h5><a href="shop.html">Hats</a></h5>
@@ -1291,7 +1349,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="banner-img wow fadeIn animated">
-                            <img src="assets/imgs/banner/banner-1.png" alt="">
+                            <img src={{ asset('assets/imgs/banner/banner-1.png') }} alt="">
                             <div class="banner-text">
                                 <span>Smart Offer</span>
                                 <h4>Save 20% on <br>Woman Bag</h4>
@@ -1301,7 +1359,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="banner-img wow fadeIn animated">
-                            <img src="assets/imgs/banner/banner-2.png" alt="">
+                            <img src={{ asset('assets/imgs/banner/banner-2.png') }} alt="">
                             <div class="banner-text">
                                 <span>Sale off</span>
                                 <h4>Great Summer <br>Collection</h4>
@@ -1311,7 +1369,7 @@
                     </div>
                     <div class="col-lg-4 d-md-none d-lg-flex">
                         <div class="banner-img wow fadeIn animated  mb-sm-0">
-                            <img src="assets/imgs/banner/banner-3.png" alt="">
+                            <img src={{ asset('assets/imgs/banner/banner-3.png') }} alt="">
                             <div class="banner-text">
                                 <span>New Arrivals</span>
                                 <h4>Shop Today’s <br>Deals & Offers</h4>
@@ -1333,9 +1391,11 @@
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
                                     <a href="product-details.html">
-                                        <img class="default-img" src="assets/imgs/shop/product-2-1.jpg"
+                                        <img class="default-img"
+                                            src={{ asset('assets/imgs/shop/product-2-1.jpg') }}
                                             alt="">
-                                        <img class="hover-img" src="assets/imgs/shop/product-2-2.jpg"
+                                        <img class="hover-img"
+                                            src={{ asset('assets/imgs/shop/product-2-2.jpg') }}
                                             alt="">
                                     </a>
                                 </div>
@@ -1369,9 +1429,11 @@
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
                                     <a href="product-details.html">
-                                        <img class="default-img" src="assets/imgs/shop/product-4-1.jpg"
+                                        <img class="default-img"
+                                            src={{ asset('assets/imgs/shop/product-4-1.jpg') }}
                                             alt="">
-                                        <img class="hover-img" src="assets/imgs/shop/product-4-2.jpg"
+                                        <img class="hover-img"
+                                            src={{ asset('assets/imgs/shop/product-4-2.jpg') }}
                                             alt="">
                                     </a>
                                 </div>
@@ -1405,9 +1467,11 @@
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
                                     <a href="product-details.html">
-                                        <img class="default-img" src="assets/imgs/shop/product-15-1.jpg"
+                                        <img class="default-img"
+                                            src={{ asset('assets/imgs/shop/product-15-1.jpg') }}
                                             alt="">
-                                        <img class="hover-img" src="assets/imgs/shop/product-15-2.jpg"
+                                        <img class="hover-img"
+                                            src={{ asset('assets/imgs/shop/product-15-2.jpg') }}
                                             alt="">
                                     </a>
                                 </div>
@@ -1441,9 +1505,11 @@
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
                                     <a href="product-details.html">
-                                        <img class="default-img" src="assets/imgs/shop/product-3-1.jpg"
+                                        <img class="default-img"
+                                            src={{ asset('assets/imgs/shop/product-3-1.jpg') }}
                                             alt="">
-                                        <img class="hover-img" src="assets/imgs/shop/product-3-2.jpg"
+                                        <img class="hover-img"
+                                            src={{ asset('assets/imgs/shop/product-3-2.jpg') }}
                                             alt="">
                                     </a>
                                 </div>
@@ -1477,9 +1543,11 @@
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
                                     <a href="product-details.html">
-                                        <img class="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                        <img class="default-img"
+                                            src={{ asset('assets/imgs/shop/product-9-1.jpg') }}
                                             alt="">
-                                        <img class="hover-img" src="assets/imgs/shop/product-9-2.jpg"
+                                        <img class="hover-img"
+                                            src={{ asset('assets/imgs/shop/product-9-2.jpg') }}
                                             alt="">
                                     </a>
                                 </div>
@@ -1513,9 +1581,11 @@
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
                                     <a href="product-details.html">
-                                        <img class="default-img" src="assets/imgs/shop/product-7-1.jpg"
+                                        <img class="default-img"
+                                            src={{ asset('assets/imgs/shop/product-7-1.jpg') }}
                                             alt="">
-                                        <img class="hover-img" src="assets/imgs/shop/product-7-2.jpg"
+                                        <img class="hover-img"
+                                            src={{ asset('assets/imgs/shop/product-7-2.jpg') }}
                                             alt="">
                                     </a>
                                 </div>
@@ -1549,9 +1619,11 @@
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
                                     <a href="product-details.html">
-                                        <img class="default-img" src="assets/imgs/shop/product-1-1.jpg"
+                                        <img class="default-img"
+                                            src={{ asset('assets/imgs/shop/product-1-1.jpg') }}
                                             alt="">
-                                        <img class="hover-img" src="assets/imgs/shop/product-1-2.jpg"
+                                        <img class="hover-img"
+                                            src={{ asset('assets/imgs/shop/product-1-2.jpg') }}
                                             alt="">
                                     </a>
                                 </div>
@@ -1591,25 +1663,32 @@
                         id="carausel-6-columns-3-arrows"></div>
                     <div class="carausel-6-columns text-center" id="carausel-6-columns-3">
                         <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-1.png" alt="">
+                            <img class="img-grey-hover" src={{ asset('assets/imgs/banner/brand-1.png') }}
+                                alt="">
                         </div>
                         <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-2.png" alt="">
+                            <img class="img-grey-hover" src={{ asset('assets/imgs/banner/brand-2.png') }}
+                                alt="">
                         </div>
                         <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-3.png" alt="">
+                            <img class="img-grey-hover" src={{ asset('assets/imgs/banner/brand-3.png') }}
+                                alt="">
                         </div>
                         <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-4.png" alt="">
+                            <img class="img-grey-hover" src={{ asset('assets/imgs/banner/brand-4.png') }}
+                                alt="">
                         </div>
                         <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-5.png" alt="">
+                            <img class="img-grey-hover" src={{ asset('assets/imgs/banner/brand-5.png') }}
+                                alt="">
                         </div>
                         <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-6.png" alt="">
+                            <img class="img-grey-hover" src={{ asset('assets/imgs/banner/brand-6.png') }}
+                                alt="">
                         </div>
                         <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-3.png" alt="">
+                            <img class="img-grey-hover" src={{ asset('assets/imgs/banner/brand-3.png') }}
+                                alt="">
                         </div>
                     </div>
                 </div>
