@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <div class="preloader"></div>
     <header class="header-area header-style-1 header-height-2">
         <div class="header-top header-top-ptb-1 d-none d-lg-block">
             <div class="container">
@@ -44,9 +45,11 @@
                         <div class="text-center">
                             <div id="news-flash" class="d-inline-block">
                                 <ul>
-                                    <li>Get great devices up to 50% off <a href="shop.html">View details</a></li>
+                                    <li>Get great devices up to 50% off <a href="{{ route('shop') }}">View details</a>
+                                    </li>
                                     <li>Supper Value Deals - Save more with coupons</li>
-                                    <li>Trendy 25silver jewelry, save up 35% off today <a href="shop.html">Shop now</a>
+                                    <li>Trendy 25silver jewelry, save up 35% off today <a
+                                            href="{{ route('shop') }}">Shop now</a>
                                     </li>
                                 </ul>
                             </div>
@@ -168,7 +171,7 @@
                                 <div class="categori-dropdown-wrap categori-dropdown-active-large">
                                     <ul>
                                         <li class="has-children">
-                                            <a href="shop.html"><i class="surfsidemedia-font-dress"></i>Women's
+                                            <a href="{{ route('shop') }}"><i class="surfsidemedia-font-dress"></i>Women's
                                                 Clothing</a>
                                             <div class="dropdown-menu">
                                                 <ul class="mega-menu d-lg-flex">
@@ -243,7 +246,7 @@
                                             </div>
                                         </li>
                                         <li class="has-children">
-                                            <a href="shop.html"><i class="surfsidemedia-font-tshirt"></i>Men's
+                                            <a href="{{ route('shop') }}"><i class="surfsidemedia-font-tshirt"></i>Men's
                                                 Clothing</a>
                                             <div class="dropdown-menu">
                                                 <ul class="mega-menu d-lg-flex">
@@ -308,7 +311,7 @@
                                             </div>
                                         </li>
                                         <li class="has-children">
-                                            <a href="shop.html"><i class="surfsidemedia-font-smartphone"></i>
+                                            <a href="{{ route('shop') }}"><i class="surfsidemedia-font-smartphone"></i>
                                                 Cellphones</a>
                                             <div class="dropdown-menu">
                                                 <ul class="mega-menu d-lg-flex">
@@ -383,29 +386,39 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li><a href="shop.html"><i class="surfsidemedia-font-desktop"></i>Computer &
+                                        <li><a href="{{ route('shop') }}"><i
+                                                    class="surfsidemedia-font-desktop"></i>Computer &
                                                 Office</a></li>
-                                        <li><a href="shop.html"><i class="surfsidemedia-font-cpu"></i>Consumer
+                                        <li><a href="{{ route('shop') }}"><i class="surfsidemedia-font-cpu"></i>Consumer
                                                 Electronics</a></li>
-                                        <li><a href="shop.html"><i class="surfsidemedia-font-diamond"></i>Jewelry &
+                                        <li><a href="{{ route('shop') }}"><i
+                                                    class="surfsidemedia-font-diamond"></i>Jewelry &
                                                 Accessories</a></li>
-                                        <li><a href="shop.html"><i class="surfsidemedia-font-home"></i>Home & Garden</a>
+                                        <li><a href="{{ route('shop') }}"><i class="surfsidemedia-font-home"></i>Home &
+                                                Garden</a>
                                         </li>
-                                        <li><a href="shop.html"><i class="surfsidemedia-font-high-heels"></i>Shoes</a>
+                                        <li><a href="{{ route('shop') }}"><i
+                                                    class="surfsidemedia-font-high-heels"></i>Shoes</a>
                                         </li>
-                                        <li><a href="shop.html"><i class="surfsidemedia-font-teddy-bear"></i>Mother &
+                                        <li><a href="{{ route('shop') }}"><i
+                                                    class="surfsidemedia-font-teddy-bear"></i>Mother &
                                                 Kids</a></li>
-                                        <li><a href="shop.html"><i class="surfsidemedia-font-kite"></i>Outdoor fun</a>
+                                        <li><a href="{{ route('shop') }}"><i class="surfsidemedia-font-kite"></i>Outdoor
+                                                fun</a>
                                         </li>
                                         <li>
                                             <ul class="more_slide_open" style="display: none;">
-                                                <li><a href="shop.html"><i class="surfsidemedia-font-desktop"></i>Beauty,
+                                                <li><a href="{{ route('shop') }}"><i
+                                                            class="surfsidemedia-font-desktop"></i>Beauty,
                                                         Health</a></li>
-                                                <li><a href="shop.html"><i class="surfsidemedia-font-cpu"></i>Bags and
+                                                <li><a href="{{ route('shop') }}"><i
+                                                            class="surfsidemedia-font-cpu"></i>Bags and
                                                         Shoes</a></li>
-                                                <li><a href="shop.html"><i class="surfsidemedia-font-diamond"></i>Consumer
+                                                <li><a href="{{ route('shop') }}"><i
+                                                            class="surfsidemedia-font-diamond"></i>Consumer
                                                         Electronics</a></li>
-                                                <li><a href="shop.html"><i class="surfsidemedia-font-home"></i>Automobiles
+                                                <li><a href="{{ route('shop') }}"><i
+                                                            class="surfsidemedia-font-home"></i>Automobiles
                                                         & Motorcycles</a></li>
                                             </ul>
                                         </li>
@@ -418,7 +431,7 @@
                                     <ul>
                                         <li><a class="active" href="index.html">Home </a></li>
                                         <li><a href="about.html">About</a></li>
-                                        <li><a href="shop.html">Shop</a></li>
+                                        <li><a href="{{ route('shop') }}">Shop</a></li>
                                         <li class="position-static"><a href="#">Our Collections <i
                                                     class="fi-rs-angle-down"></i></a>
                                             <ul class="mega-menu">
@@ -604,21 +617,30 @@
                             </a>
                             <div class="categori-dropdown-wrap categori-dropdown-active-small">
                                 <ul>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-dress"></i>Women's Clothing</a>
+                                    <li><a href="{{ route('shop') }}"><i class="surfsidemedia-font-dress"></i>Women's
+                                            Clothing</a>
                                     </li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-tshirt"></i>Men's Clothing</a>
+                                    <li><a href="{{ route('shop') }}"><i class="surfsidemedia-font-tshirt"></i>Men's
+                                            Clothing</a>
                                     </li>
-                                    <li> <a href="shop.html"><i class="surfsidemedia-font-smartphone"></i> Cellphones</a>
+                                    <li> <a href="{{ route('shop') }}"><i class="surfsidemedia-font-smartphone"></i>
+                                            Cellphones</a>
                                     </li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-desktop"></i>Computer &
+                                    <li><a href="{{ route('shop') }}"><i class="surfsidemedia-font-desktop"></i>Computer
+                                            &
                                             Office</a></li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-cpu"></i>Consumer Electronics</a>
+                                    <li><a href="{{ route('shop') }}"><i class="surfsidemedia-font-cpu"></i>Consumer
+                                            Electronics</a>
                                     </li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-home"></i>Home & Garden</a></li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-high-heels"></i>Shoes</a></li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-teddy-bear"></i>Mother & Kids</a>
+                                    <li><a href="{{ route('shop') }}"><i class="surfsidemedia-font-home"></i>Home &
+                                            Garden</a></li>
+                                    <li><a href="{{ route('shop') }}"><i
+                                                class="surfsidemedia-font-high-heels"></i>Shoes</a></li>
+                                    <li><a href="{{ route('shop') }}"><i class="surfsidemedia-font-teddy-bear"></i>Mother
+                                            & Kids</a>
                                     </li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-kite"></i>Outdoor fun</a></li>
+                                    <li><a href="{{ route('shop') }}"><i class="surfsidemedia-font-kite"></i>Outdoor
+                                            fun</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -626,9 +648,9 @@
                         <nav>
                             <ul class="mobile-menu">
                                 <li class="menu-item-has-children"><span class="menu-expand"></span><a
-                                        href="index.html">Home</a></li>
+                                        href="/">Home</a></li>
                                 <li class="menu-item-has-children"><span class="menu-expand"></span><a
-                                        href="shop.html">shop</a></li>
+                                        href="{{ route('shop') }}">shop</a></li>
                                 <li class="menu-item-has-children"><span class="menu-expand"></span><a href="#">Our
                                         Collections</a>
                                     <ul class="dropdown">
