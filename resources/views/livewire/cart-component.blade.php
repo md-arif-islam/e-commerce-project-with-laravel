@@ -64,7 +64,9 @@
                                                     <span>${{ $item->subtotal }} </span>
                                                 </td>
                                                 <td class="action" data-title="Remove"><a href="#"
-                                                        class="text-muted"><i class="fi-rs-trash"></i></a></td>
+                                                        class="text-muted"
+                                                        wire:click.prevent="destroy('{{ $item->rowId }}')"><i
+                                                            class="fi-rs-trash"></i></a></td>
                                             </tr>
                                         @endforeach
                                     @else

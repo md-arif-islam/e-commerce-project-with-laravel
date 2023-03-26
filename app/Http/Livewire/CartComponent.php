@@ -3,6 +3,7 @@
 namespace App\Http\Livewire;
 
 use Gloudemans\Shoppingcart\Facades\Cart;
+use Illuminate\Contracts\Session\Session;
 use Livewire\Component;
 
 class CartComponent extends Component {
@@ -19,6 +20,12 @@ class CartComponent extends Component {
         $qty = $product->qty - 1;
 
         Cart::update( $rowId, $qty );
+    }
+
+    public function destroy( $rowId ) {
+        Cart::remove( $rowId );
+        session()->flash( "success_msg", "Item has benn removed!" );
+
     }
 
     public function render() {
