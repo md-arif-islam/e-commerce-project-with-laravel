@@ -25,7 +25,10 @@ class CartComponent extends Component {
     public function destroy( $rowId ) {
         Cart::remove( $rowId );
         session()->flash( "success_msg", "Item has benn removed!" );
+    }
 
+    public function clearAll() {
+        Cart::destroy();
     }
 
     public function render() {
