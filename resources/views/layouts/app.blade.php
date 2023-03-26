@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="preloader"></div>
+    {{-- <div class="preloader"></div> --}}
     <header class="header-area header-style-1 header-height-2">
         <div class="header-top header-top-ptb-1 d-none d-lg-block">
             <div class="container">
@@ -874,6 +874,7 @@
         <script src={{ asset('assets/js/main.js?v=3.3') }}></script>
         <script src={{ asset('assets/js/shop.js?v=3.3') }}></script>
         @livewireScripts
+        @stack('scripts')
     </body>
 
     </html>
