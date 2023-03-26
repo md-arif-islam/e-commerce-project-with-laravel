@@ -21,7 +21,7 @@ return new class extends Migration {
             $table->decimal( 'sale_price', 8, 2 )->nullable();
             $table->string( 'SKU' );
             $table->enum( 'stock_status', ['instock', 'outofstock'] );
-            $table->unsignedInteger( 'quantity' )->default( 10 );
+            $table->unsignedInteger( 'qty' )->default( 10 );
             $table->string( 'image' );
             $table->text( 'images' )->nullable();
             $table->unsignedBigInteger( 'category_id' )->nullable();
