@@ -35,6 +35,16 @@ class ShopComponent extends Component {
         $this->emitTo( 'wishlist-icon-component', 'refreshComponent' );
     }
 
+    public function removeFromWishlist( $product_id ) {
+        foreach ( Cart::instance( 'wishlist' )->content() as $witem ) {
+            if ( $witem->id == $product_id ) {
+                Cart::instance( 'wishlist' )->remove( $witem->rowId );
+                $this->emitTo( 'wishlist-icon-component', 'refreshComponent' );
+                return;
+            }
+        }
+    }
+
     public function render() {
 
         $products = Product::whereBetween( 'regular_price', [$this->min_value, $this->max_value] )->paginate( 10 );
