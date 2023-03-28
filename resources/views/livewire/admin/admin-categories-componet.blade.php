@@ -39,11 +39,11 @@
                                     </thead>
                                     <tbody>
                                         @php
-                                            $i = 1;
+                                            $i = ($categories->currentPage() - 1) * $categories->perPage(); // 2-1 = 1 * 5  = 5;
                                         @endphp
                                         @foreach ($categories as $category)
                                             <tr>
-                                                <td>{{ $i++ }}</td>
+                                                <td>{{ ++$i }}</td>
                                                 <td>{{ $category->name }}</td>
                                                 <td>{{ $category->slug }}</td>
                                                 <td></td>
