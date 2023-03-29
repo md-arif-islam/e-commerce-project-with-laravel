@@ -15,7 +15,7 @@
                 <div class="breadcrumb">
                     <a href="index.html" rel="nofollow">Home</a>
 
-                    <span></span>Add new Categories
+                    <span></span>Add new Categoriy
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
                             <div class="card-header">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        Add new Categories
+                                        Add new Category
                                     </div>
                                     <div class="col-md-6">
                                         <a href="{{ route('admin.categories') }}" class="btn btn-success float-end">All
