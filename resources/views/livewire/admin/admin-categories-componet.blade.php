@@ -46,7 +46,7 @@
                                 <table class="table table-striped">
                                     <thead>
                                         <tr>
-                                            <th>#</th>
+                                            <th>Serial</th>
                                             <th>Name</th>
                                             <th>Slug</th>
                                             <th>Action</th>
