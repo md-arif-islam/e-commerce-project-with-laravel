@@ -54,7 +54,7 @@
                                     </thead>
                                     <tbody>
                                         @php
-                                            $i = ($categories->currentPage() - 1) * $categories->perPage(); // 2-1 = 1 * 5  = 5;
+                                            $i = ($categories->currentPage() - 1) * $categories->perPage();
                                         @endphp
                                         @foreach ($categories as $category)
                                             <tr>
